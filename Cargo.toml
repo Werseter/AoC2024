@@ -5,3 +5,7 @@ edition = "2021"
 
 [package.metadata.clippy]
 extra_args = ["--warn=clippy::pedantic", "--warn=clippy::nursery", "--warn=clippy::cargo"]
+
+[[bin]]
+name = "day01"
+path = "src/bin/day01.rs"

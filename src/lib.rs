@@ -24,3 +24,5 @@
     clippy::missing_panics_doc,      // Panics documentation can be verbose
     clippy::cargo_common_metadata
 )]
+
+pub mod day01;
