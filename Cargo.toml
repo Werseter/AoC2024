@@ -6,6 +6,9 @@ edition = "2021"
 [package.metadata.clippy]
 extra_args = ["--warn=clippy::pedantic", "--warn=clippy::nursery", "--warn=clippy::cargo"]
 
+[dependencies]
+regex = "1.11.1"
+
 [[bin]]
 name = "day01"
 path = "src/bin/day01.rs"
@@ -13,3 +16,7 @@ path = "src/bin/day01.rs"
 [[bin]]
 name = "day02"
 path = "src/bin/day02.rs"
+
+[[bin]]
+name = "day03"
+path = "src/bin/day03.rs"
